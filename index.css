@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: gray;
+     */
+     background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch-container {
+    text-align: center;
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    background-color: aquamarine;
+    
+     /* background-image: url(./stop.jpg);
+     background-repeat: no-repeat;
+     background-size: cover; */
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.lap-times ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lap-times li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
